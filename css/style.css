@@ -1,0 +1,84 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    transition: .3s linear all;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.turns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    font-family: 'Consolas';
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(19, 19, 46);
+    background: lightseagreen;
+}
+
+.turns p{
+    margin: 5px;
+    padding: 9px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.active{
+    background-color: white;
+    color: lightseagreen;
+}
+
+#game{
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(19, 19, 46);
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 2px; 
+    width: 80px; 
+    height: 80px; 
+    background-color: rgb(245, 244, 212); 
+    border: 1px solid #000; 
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: .4;
+}
+
+button{
+    padding: 5px 35px;
+    background-color: rgb(80, 155, 179);
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px rgb(19, 19, 46);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(34, 81, 97); 
+}
